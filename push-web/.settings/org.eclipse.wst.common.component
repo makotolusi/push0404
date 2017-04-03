@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="video-mobile-push-web-1.3-SNAPSHOT">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <dependent-module archiveName="video-mobile-push-service-1.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/push system service/push system service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="video-mobile-push-model-1.3-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/push system model/push system model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/video-mobile-push-web/target/classes"/>
+        <property name="context-root" value="/push"/>
+    </wb-module>
+</project-modules>

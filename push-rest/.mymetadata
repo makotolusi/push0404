@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="push system rest app"
+  id="myeclipse.1490790364170"
+  context-root="/video-mobile-push-rest"
+  j2ee-spec="6.0"
+  archive="push system rest app.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

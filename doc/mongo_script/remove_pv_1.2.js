@@ -1,0 +1,7 @@
+db.UserItemOperatePv.remove()
+db.ItemOperatePv.remove()
+db.UserGamePv.remove()
+db.ItemPv.remove()
+db.UserSearchKeyWordPv.remove()
+db.SearchKeyWordPv.remove()
+db.StatisticJobLastUpdateTime.remove()
